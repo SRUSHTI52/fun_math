@@ -107,7 +107,7 @@ class Logic_Mul : AppCompatActivity() {
         val n1 = Random.nextInt(0, 10)
         val n2 = Random.nextInt(0, 10)
         textque.text = "$n1 * $n2"
-        ans = n1 + n2
+        ans = n1 * n2
         timecounter()
     }
 
