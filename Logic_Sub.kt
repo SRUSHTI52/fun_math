@@ -107,7 +107,7 @@ start()
         val n1 = Random.nextInt(0, 100)
         val n2 = Random.nextInt(0, 100)
         textque.text = "$n1 - $n2"
-        ans = n1 + n2
+        ans = n1 - n2
         timecounter()
     }
 
