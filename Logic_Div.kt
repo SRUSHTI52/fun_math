@@ -107,7 +107,7 @@ class Logic_Div : AppCompatActivity() {
         val n1 = Random.nextInt(0, 50)
         val n2 = Random.nextInt(0, 50)
         textque.text = "$n1 / $n2"
-        ans = n1 + n2
+        ans = n1 / n2
         timecounter()
     }
 
